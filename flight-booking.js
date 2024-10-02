@@ -1,3 +1,4 @@
+//function to check eligibility for booking a flight
 function eligibility(age,hasPassport,isFlightAvailable){
     if(age>=18 &&  age <=70 && hasPassport && isFlightAvailable){
         return "Booking successful";
